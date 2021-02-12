@@ -25,8 +25,9 @@ namespace ClassIntro
             kurs4.KursAdi = "C++";
             kurs4.Egitmeni = "Murat Kurtboğan";
             kurs4.IzlenmeOrani = 75;
-
+            
             Kurs[] kurslar = new Kurs[] { kurs1, kurs2, kurs3, kurs4 };
+            
             foreach ( var kurs in kurslar)
             {
                 Console.WriteLine(kurs.KursAdi + " : " + kurs.Egitmeni);
