@@ -27,6 +27,8 @@ namespace ClassMetotDemo
             customerManager1.CustomerDelete(customer2);
             customerManager1.CustomerList(customer1);
             customerManager1.CustomerList(customer2);
+
+
         }
     }
 }
