@@ -36,13 +36,11 @@ namespace Metodlar
             };
 
             Console.WriteLine("------------------------Metotlar----------------------------------");
+            // instance - Örnek
+            // encapsulation - Kapsülleme
             SepetManager sepetManager = new SepetManager();
             sepetManager.Add(product1);
             sepetManager.Add(product2);
-
-
-
-
 
         }
     }
